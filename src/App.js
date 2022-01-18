@@ -7,8 +7,8 @@ function App() {
   const [currentBox, setCurrentBox] = useState("");
   return (
     <div className="App">
-      <BoxForm/>
-      <BoxDisplay />
+      <BoxForm/>{/* FORM */}
+      <BoxDisplay />{/* DISPLAY */}
     </div>
   );
 }
